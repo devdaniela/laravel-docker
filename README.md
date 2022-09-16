@@ -1,15 +1,9 @@
 # LARAVEL Docker MySQL Nginx
 
-### Versiones
 * Laravel 8.20.1
-* php 7.4.30
+* PHP 7.4.30
 * MySQL 8.0
 * Nginx
-
-### Puertos configurados:
-* Nginx 8000->80
-* php   9000->80
-* MySQL 33069->3306
 
 
 ## Commands - Docker:
