@@ -5,10 +5,11 @@
 * MySQL 8.0
 * Nginx
 
-
-## Commands - Docker:
+## Commands:
 ``` cmd
-    docker-compose up -d
+    cd laravel-docker
+    cp src/.env.example src/.env
+    docker-compose up -d --build
     docker-compose ps
 ```
 
@@ -16,22 +17,11 @@
 ```cmd
     docker-compose exec php bash
     composer install
-    php artisan migrate
     php artisan key:generate
+    php artisan migrate
     php artisan config:cache
     php artisan route:clear
 ```
-or
-```cmd
-    docker-compose exec php php /var/www/html/artisan migrate
-```
-
-## Commands - MySQL:
-```cmd
-    docker-compose exec mysql bash
-    mysql -u root -p <su password>
-```
-
 
 * Si todos los contenedores estan con State = Up, entonces abrir desde el navegador:
 ```
@@ -40,7 +30,14 @@ or
 * Caso contrario ejecutar:
 ``` cmd
     docker-compose down
-    docker-compose up -d --build
+    sudo docker-compose up -d --build
+```
+
+## Commands - MySQL
+Para acceder a la DB ó puedes establecer la conexión en cualquier gestor de base de datos (ver datos en el archivo docker-compose.yml)
+```cmd
+    docker-compose exec mysql bash
+    mysql -u root -p <su password>
 ```
 
 ##
