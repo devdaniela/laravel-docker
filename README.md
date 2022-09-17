@@ -8,7 +8,7 @@
 <hr>
 
 Este es un proyecto muy sencillo pero sumamente útil, el cúal desarrolle para compartir como se puede integrar Laravel con Docker y MySQL,
-estableciendo las configuraciones requeridas en el archivo <i>docker-compose</i> y <i>Dockerfile</i>, como versiones y puertos, además contiene integrado AdminLTE y un pequeño CRUD de usuarios.
+estableciendo las configuraciones requeridas en el archivo <i>docker-compose</i> y <i>Dockerfile</i>, como versiones y puertos, además contiene integrado AdminLTE y un CRUD de usuarios.
 
 Si deseas clonar este proyecto: luego que se complete su descarga debes ejecutar lo siguiente:
 
