@@ -7,7 +7,7 @@
 
 
 
-* Copia el link para clonar el proyecto en tu directorio y luego debes ejecutar lo siguiente:
+** Copia el link para clonar el proyecto en tu directorio y luego debes ejecutar lo siguiente:
 
 ## Commands - Docker:
 ``` cmd
