@@ -5,9 +5,12 @@
 * MySQL 8.0
 * Nginx
 
+<hr>
 
+Este es un proyecto muy sencillo pero sumamente útil, el cúal desarrolle para compartir como se puede integrar Laravel con Docker y MySQL,
+estableciendo las configuraciones requeridas en el archivo <i>docker-compose</i> y <i>Dockerfile</i>, como versiones y puertos, además contiene integrado AdminLTE y un pequeño CRUD de usuarios.
 
-** Copia el link para clonar el proyecto en tu directorio y luego debes ejecutar lo siguiente:
+Si deseas clonar este proyecto: luego que se complete su descarga debes ejecutar lo siguiente:
 
 ## Commands - Docker:
 ``` cmd
@@ -37,6 +40,8 @@
     sudo docker-compose up -d --build
 ```
 
+<br>
+
 ## Commands - MySQL
 Podrás acceder a la DB usando el bash ó tambien puedes establecer la conexión en cualquier gestor de base de datos de tu preferencia
 (en el archivo docker-compose.yml encontrarás los datos de conexión)
@@ -45,6 +50,7 @@ Podrás acceder a la DB usando el bash ó tambien puedes establecer la conexión
     mysql -u root -p <su password>
 ```
 
-##
+<hr>
+
 Daniela Romero
 @devdaniela 
