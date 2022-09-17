@@ -7,7 +7,9 @@
 
 
 
-## Luego de clonar el proyecto en tu directorio ejecutar lo siguiente:
+* Copia el link para clonar el proyecto en tu directorio y luego debes ejecutar lo siguiente:
+
+## Commands - Docker:
 ``` cmd
     cd laravel-docker
     cp src/.env.example src/.env
@@ -29,14 +31,15 @@
 ```
     localhost:8000
 ```
-* Caso contrario ejecutar:
+* De lo contrario ejecutar:
 ``` cmd
     docker-compose down
     sudo docker-compose up -d --build
 ```
 
 ## Commands - MySQL
-Para acceder a la DB ó puedes establecer la conexión en cualquier gestor de base de datos (ver datos en el archivo docker-compose.yml)
+Podrás acceder a la DB usando el bash ó tambien puedes establecer la conexión en cualquier gestor de base de datos de tu preferencia
+(en el archivo docker-compose.yml encontrarás los datos de conexión)
 ```cmd
     docker-compose exec mysql bash
     mysql -u root -p <su password>
