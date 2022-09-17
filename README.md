@@ -5,7 +5,9 @@
 * MySQL 8.0
 * Nginx
 
-## Commands:
+
+
+## Luego de clonar el proyecto en tu directorio ejecutar lo siguiente:
 ``` cmd
     cd laravel-docker
     cp src/.env.example src/.env
